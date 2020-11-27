@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="154dp"
+        android:layout_y="44dp"
+        android:text="Calculation"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="138dp"
+        android:text="Number-1"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="176dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="256dp"
+        android:text="Number-2"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="398dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="494dp"
+        android:text="Reset" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="278dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="581dp"
+        android:text="Multiply" />
+</AbsoluteLayout>
