@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="58dp"
+        android:text="CheckBoxConcepts"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="147dp"
+        android:text="ProductItems"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="276dp"
+        android:text="pizza" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="354dp"
+        android:text="coffe" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="118dp"
+        android:layout_y="439dp"
+        android:text="burger" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="528dp"
+        android:text="OrderButton" />
+</AbsoluteLayout>
