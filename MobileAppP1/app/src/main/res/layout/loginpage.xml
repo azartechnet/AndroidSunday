@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="76dp"
+        android:text="LoginPage"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="185dp"
+        android:text="UserName"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="215dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="Enter UserName" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="281dp"
+        android:text="Password"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="310dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:text="Enter password" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="417dp"
+        android:text="Login" />
+</AbsoluteLayout>
