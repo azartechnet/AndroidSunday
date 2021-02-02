@@ -1,6 +1,7 @@
 package com.example.mobileappp1;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -34,6 +35,12 @@ public class LoginPage extends Activity
             if(t1.equals("azar")&&t2.equals("azar@123"))
             {
                 Toast.makeText(getApplicationContext(),"LoginSucess",Toast.LENGTH_LONG).show();
+                Bundle b=new Bundle();
+                b.putString("k1",t1);
+                Intent h=new Intent(LoginPage.this,UserHomePage.class);
+                h.putExtras(b);
+                startActivity(h);
+
             }
             else
             {
