@@ -60,5 +60,13 @@
         android:layout_height="wrap_content"
         android:layout_x="6dp"
         android:layout_y="417dp"
-        android:text="Login" />
+        android:text="UserLogin" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="510dp"
+        android:text="AdminLogin" />
 </AbsoluteLayout>

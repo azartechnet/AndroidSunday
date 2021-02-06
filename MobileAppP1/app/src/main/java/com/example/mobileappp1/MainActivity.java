@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
     private class adminpage implements View.OnClickListener {
         @Override
         public void onClick(View view) {
-            Intent k2=new Intent(MainActivity.this,AdminPage.class);
+            Intent k2=new Intent(MainActivity.this,LoginPage.class);
             startActivity(k2);
             Toast.makeText(getApplicationContext(),"Login AdminPage",Toast.LENGTH_LONG).show();
 

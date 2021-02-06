@@ -6,9 +6,9 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="151dp"
-        android:layout_y="81dp"
-        android:text="AdminPage"
+        android:layout_x="84dp"
+        android:layout_y="86dp"
+        android:text="AdminPageHomePage"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
