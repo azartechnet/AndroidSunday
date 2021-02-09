@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="33dp"
+        android:text="ProductReview"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="128dp"
+        android:text="ProductName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="180dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="261dp"
+        android:text="FeedBack" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="300dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="398dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="520dp"
+        android:text="Review" />
+</AbsoluteLayout>

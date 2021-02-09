@@ -12,4 +12,28 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="189dp"
+        android:text="AddProductReview" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="330dp"
+        android:text="AddProduct" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="470dp"
+        android:text="AddCategory" />
 </AbsoluteLayout>
